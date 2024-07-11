@@ -1,0 +1,32 @@
+name: uas_nazar
+description: "A new Flutter project."
+publish_to: 'none' # Prevents accidental publication to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^0.13.4  # Added http package for API requests
+  font_awesome_flutter: ^10.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/mobil1.png
+    - assets/images/avanza.jpeg
+    - assets/images/daihatsu.jpg
+    - assets/images/ertiga.jpg
+    - assets/images/pajero.jpg
+    - assets/images/hondajazz.jpeg
+    - assets/images/mercedes.jpeg
